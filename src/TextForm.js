@@ -21,10 +21,14 @@ export default function TextForm(props) {
   }
 
   return (
-    <div>
+    <div style={{ color: props.mode === "dark" ? "white" : "black" }}>
       <h1>{props.header}</h1>
       <div className="mb-3">
         <textarea
+          style={{
+            background: props.mode === "dark" ? "grey" : "white",
+            color: props.mode === "dark" ? "white" : "black",
+          }}
           value={text}
           onChange={HandleOnChange}
           className="form-control"
