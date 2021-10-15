@@ -12,7 +12,7 @@ function App() {
       document.body.style.background = "white";
     } else {
       setMode("dark");
-      document.body.style.background = "grey";
+      document.body.style.background = "#042743";
     }
   };
   return (
