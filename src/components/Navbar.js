@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Navbar(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <nav
       className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}
