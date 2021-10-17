@@ -23,7 +23,7 @@ function App() {
         <div className="container">
           <Switch>
             <Route path="/about">
-              <About />
+              <About mode={mode} />
             </Route>
 
             <Route path="/">
